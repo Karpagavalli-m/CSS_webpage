@@ -43,6 +43,7 @@
   .logo_left{
     display: flex;
     align-items: center;
+    margin-left: 10px;
   }       
   .search_input {
     width: 300%;
@@ -51,15 +52,7 @@
     height: 30px;
     border-radius: 30px;
   }
-  /*  position: relative;
-    float: left;
-      }*/
-  /*.search form {
-    display: flex;
-    border: 1px solid #ddd;
-    height: 45px;
-    background-color: red;
-   }*/
+  
    .search_button {
     margin-left: 5px;
     margin-top: 3px;
@@ -69,10 +62,7 @@
     border-radius: 10px;
     align-content: center;
     background-color: grey;
-   /* position: absolute;
-    float:left;
-    top:15px;
-    margin-left:10px;*/
+
     
   }
   #srch{
@@ -80,45 +70,65 @@
     padding: 5px;
   }
 
-  @media screen and (max-width: 800px) {
+  .logoimg{
+    height: 60px;
+    width: 60px;
+  }
+
+  @media screen and (max-width: 600px) {
     .logocenter input[type=text] {
       
-      width: 50%;
-      margin-left: 10px;
+      width: 60%;
+      height: 15px;
+      margin-left: 5px;
     }
     *{
         color:black;
     }
 
     #srch{
-        font-size: 16px;
-        padding: 2px;
+        font-size: 10px;
 
     }
     .search_button{
         align-items: center;
+        padding: 2px;
     }
     
     
     .visit_btn{
         font-size:16px;
-        padding: 10px;
-        
+        padding: 10px;  
         
     }
     
     
     .logoright a,.logoright .material-icons{
-        font-size: 14px;
+        font-size: 13px;
+        font-weight: bold;
         margin: 0;
         padding: 5px; 
+        text-align: center;
     }
     .logoright .material-icons{
-        font-size: 24px;
+        font-size: 20px;
         margin: 0;
         padding: 5px; 
         
     }
+    .logo_left{
+        margin:2px;
+    }
+    .logoimg{
+        height: 30px;
+        width: 30px;
+      }
+      .acme-regular {
+    
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+      }
 
 
 }
